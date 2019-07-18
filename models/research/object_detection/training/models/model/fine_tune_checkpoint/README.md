@@ -1,0 +1,1 @@
+Place where to locate the pretrained model where the retraining will begin from. A collection of pretrained models can be found in the [TF Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).

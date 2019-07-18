@@ -36,7 +36,8 @@ item {
 .
 .
 ```
-4. Create a [pipeline config file](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/configuring_jobs.md). Change all parameters regarding the location of training and validation sets, pretrained models checkpoints (if any), etc.
+4. Create a [pipeline config file](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/configuring_jobs.md). Change all parameters regarding the location of training and validation sets, pretrained models checkpoints (if any), etc.  
+>> In order to apply Transfer Learning and accelerate learning, a pretrained model from [TF Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) will be needed.  
 5. From the *research* directory, launch *training_job.bat* to start the training. Modify the paths to correctly point to the configuration file and to the directory (*model*) where to save the checkpoints achieved during training. 
 6. To visualize the evolution of the model perfomrance, use the TensorBoard utility as following:
 ```
