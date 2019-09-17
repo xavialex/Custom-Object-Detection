@@ -44,4 +44,4 @@ item {
 tensorboard --logdir=path_to_training_and_eval_logs
 ```
 
-Once the model achives a desired checkpoint, it should be exported into a TensorFlow model. Make use of the *export_model.bat* script in the reseach directory, configuring again the paths for the configuration file, the checkpoint of interest and the location where the model will be exported). Then, the model is ready to be used for inference. Refer to XXX to see how to build an application that takes profit of this model.
+Once the model achives a desired checkpoint, it should be exported into a TensorFlow model. Make use of the *export_model.bat* script in the reseach directory, configuring again the paths for the configuration file, the checkpoint of interest and the location where the model will be exported). Then, the model is ready to be used for inference. Refer to [this project](https://github.com/xavialex/object-detection-inference) to see how to build an application that takes profit of this model.
